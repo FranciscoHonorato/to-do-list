@@ -1,0 +1,32 @@
+.task{
+   
+    margin-top: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 2.5rem;
+    background-color: rgb(110, 110, 110);
+    contain: paint;
+ }
+.content{
+    width: 50%;
+    right: 0;
+}
+
+.check{
+  
+   width: 1rem;
+   height: 1rem;
+   margin-left: 15px;
+  
+}
+
+
+button{ 
+    color: aliceblue;
+}
+
+.edit{
+    background: rgb(206, 88, 15);
+}

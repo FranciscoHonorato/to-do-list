@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    background: rgb(228, 228, 247);
+}
+
+form button {
+    background: rgb(66, 66, 163);
+    color: rgb(241, 245, 248);
+}
+
+form input {
+    width: 250px;
+    border: none;
+    outline: none;
+    background: rgb(228, 228, 247);
+}
+
+h1 {
+    margin-left: 60px;
+    color: rgb(255, 200, 19);
+}
