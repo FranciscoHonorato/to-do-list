@@ -9,15 +9,14 @@ function List({list}) {
   function removeItem(id) {
     const removeList = list.filter((element) => element.id !== id)
     setList(removeList)
-   // localStorage.setItem('DoList',JSON.stringify(removeList))
 
   }
 
   function editItem(item) {
     const index = list.indexOf(item)
 
-    setItem({ nome: item.nome })
-    setAux({ id: index, edit: true })
+    setItem({ nome: item.nome ,edit:true })
+    setAux(index)
 
   }
 

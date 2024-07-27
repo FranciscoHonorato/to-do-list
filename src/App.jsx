@@ -13,7 +13,7 @@ function App() {
 
   const [list, setList] = useState(JSON.parse(localStorage.getItem('DoList')) || [])
   const [item, setItem] = useState({})
-  const [aux, setAux] = useState({})
+  const [aux, setAux] = useState(0)
 
   const value = { list, setList, item, setItem, aux, setAux }
 
